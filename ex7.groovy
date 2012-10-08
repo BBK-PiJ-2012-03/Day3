@@ -22,10 +22,6 @@ for (int i=0 ; i < length ; i++) {
 	if (s2 == memory.charAt(j))
 	finished = true 
  }
-
- if (finished)
-	break;
-
  
 	
  char c = s.charAt(i)
