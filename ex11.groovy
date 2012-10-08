@@ -1,4 +1,4 @@
-println ("Give me a number")
+println ("Give me a number, (it cant have more than 1 comma and 1 dot")
 s = System.console().readLine()
 int length = s.length()
 int comaLocation = 0
@@ -58,6 +58,7 @@ String firstPart = s.substring(0,dotLocation)
 String lastPart = s.substring(dotLocation+1)
 int num1 = Integer.parseInt(firstPart)
 int num3 = Integer.parseInt(lastPart)
+
 
 double number = (num1+(num3/100))
 println (number/2)
