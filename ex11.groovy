@@ -39,3 +39,29 @@ println (number/2)
 
 
 }
+
+if (dotLocation == 0) {
+ String firstPart = s.substring(0,comaLocation)
+ String secondPart = s.substring(comaLocation+1)
+
+
+int num1 = Integer.parseInt(firstPart)
+int num2 = Integer.parseInt(secondPart)
+double number = ((1000*num1)+num2)
+
+println (number/2)
+
+}
+
+if (comaLocation ==0) {
+String firstPart = s.substring(0,dotLocation)
+String lastPart = s.substring(dotLocation+1)
+int num1 = Integer.parseInt(firstPart)
+int num3 = Integer.parseInt(lastPart)
+
+double number = (num1+(num3/100))
+println (number/2)
+
+
+}
+
